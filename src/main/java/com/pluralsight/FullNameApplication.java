@@ -17,8 +17,9 @@ public class FullNameApplication {
         String nameSuffix = input.nextLine().trim();
 
         String nameFull = nameFirst;
+        
         if (!nameMiddle.isEmpty()){
-            nameFull += " " + nameMiddle + ".";
+            nameFull += " " + nameMiddle;
         }
 
         nameFull += " " + nameLast;
